@@ -12,12 +12,14 @@
 		<input type="text" placeholder="Name" Id="name" required><br><br>
 		<label for="email">Email</label><br>
 		<input type="email" placeholder="Email" id="email" required><br><br>
+		<label>Gender</label><br>
 		<label for="gender_m">Male</label>
-		<input type="radio" name="Gender" required><br>
+		<input type="radio" id="gender_m"  name="Male" required><br>
 		<label for="gender_f">Female</label>
-		<input type="radio" name="Gender" required><br><br>
+		<input type="radio" id="gender_f" name="Female" required><br><br>
 		<label for ="cars">Car Brands</label><br>
-	<select id="cars" placeholder="--Please choose an option--" required>
+	<select id="cars" required>
+		<option values="">--Please choose an option--</option>
 		<option>bmw</option><br>		
 		<option>audi</option><br>
 		<option>benz</option><br>
