@@ -8,29 +8,30 @@
 
 <body>
 	<form method ="post">
-		<label for="name">Name</label><br>
-		<input type="text" placeholder="Name" Id="name" required><br><br>
-		<label for="email">Email</label><br>
+		<label for="name">Name</label>
+		<input type="text" placeholder="Name" id="name" required><br><br>
+		<label for="email">Email</label>
 		<input type="email" placeholder="Email" id="email" required><br><br>
-		<label>Gender</label><br>
+		<label>Gender</label>
 		<label for="gender_m">Male</label>
-		<input type="radio" id="gender_m"  name="Male" required><br>
+		<input type="radio" id="gender_m"  name="gender" required><br>
 		<label for="gender_f">Female</label>
-		<input type="radio" id="gender_f" name="Female" required><br><br>
-		<label for ="cars">Car Brands</label><br>
-	<select id="cars" required>
-		<option values="">--Please choose an option--</option>
-		<option>bmw</option><br>		
-		<option>audi</option><br>
-		<option>benz</option><br>
-		</Select><br><br>
-		<label for="age">Age</label><br>
-		<input type="number" id="age" placeholder="Age" required><br>
-		<label for="dob">DOB</label><br>
-		<INPUT TYPE="Date" id="dob" required><br>
-		<label for="tel">Phone Number</label><br>
-		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"><br>
-		<label for="password">Password</label><br>
+		<input type="radio" id="gender_f" name="gender" required><br><br>
+		<label for ="cars">Select a car</label>
+	<select placeholder= "--Please choose an option--" id="cars" required>
+	
+		<option>bmw</option>		
+		<option>audi</option>
+		<option>benz</option>
+		</Select>
+		<br><br>
+		<label for="age">Age</label>
+		<input type="number" id="age" placeholder="Age" required><br><br>
+		<label for="dob">DOB</label>
+		<input type="Date" id="dob" required><br><br>
+		<label for="tel">Phone Number</label>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"><br><br>
+		<label for="password">Password</label>
 		<input type ="password" id="password" placeholder="Password" required><br>
 		<br>
 		<label for="tos">I agree to the TOS</label>
